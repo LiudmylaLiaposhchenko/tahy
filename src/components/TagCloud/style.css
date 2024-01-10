@@ -1,0 +1,23 @@
+.tags-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.tag {
+  background-color: rgb(155, 155, 241);
+  margin: 5px;
+  padding: 3px;
+}
+
+label,
+button {
+  margin: 10px;
+}
+
+button {
+  background-color: rgb(238, 201, 201);
+  border-radius: 40px;
+  padding: 5px;
+  cursor: pointer;
+}
